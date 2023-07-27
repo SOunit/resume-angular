@@ -13,25 +13,38 @@ export class AppComponent {
   experiences: Experience[] = [
     {
       jobTitle: 'React Native Frontend Developer',
-      term: 'Feb 2022 - Apr 2022',
+      term: '2 Months | Feb 2022 - Apr 2022',
       companyName: 'kusana co. ltd.',
       appeals: [
-        'create admin pages',
-        'follow well structured coding style, clean-architecture, domain-driven-development',
-        'experience in start up company',
+        'Create admin pages',
+        'Follow well structured coding style, clean-architecture, domain-driven-development',
+        'Experience in start up company',
       ],
       skills: ['Typescript', 'React Native'],
     },
     {
       jobTitle: 'React Full Stack Developer',
-      term: 'Oct 2021 - Feb 2022',
+      term: '5 Months | Oct 2021 - Feb 2022',
       companyName: 'goopter E-commerce solution',
       appeals: [
-        'create admin pages',
-        'follow well structured coding style, clean-architecture, domain-driven-development',
-        'experience in start up company',
+        'Add company blog page',
+        'Refactor to smaller and focused components',
+        'Work with unfamiliar tech, Wordpress backend',
+        'Solve issues by my own',
       ],
-      skills: ['Typescript', 'React'],
+      skills: ['Typescript', 'React', 'SQL'],
+    },
+    {
+      jobTitle: 'Java Full Stack Developer',
+      term: '9 Months | Oct 2020 - Jun 2021',
+      companyName: 'sg system co., ltd.',
+      appeals: [
+        'Fix bugs and minor changes',
+        'Fix Tests',
+        'Test and document heavy development for quality',
+        'Waterfall development',
+      ],
+      skills: ['Java', 'SQL'],
     },
   ];
 }

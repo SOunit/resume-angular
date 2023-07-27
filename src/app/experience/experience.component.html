@@ -10,8 +10,10 @@
       <span class="company-name">{{ experience.companyName }}</span>
     </h4>
   </div>
-  <ul>
-    <li *ngFor="let appeal of experience.appeals">{{ appeal }}</li>
+  <ul class="appeal-list">
+    <li class="appeal-item" *ngFor="let appeal of experience.appeals">
+      {{ appeal }}
+    </li>
   </ul>
   <div style="display: flex">
     <app-skill-icon

@@ -38,11 +38,13 @@
           </div>
           <div>
             <h3 class="section-title">personal details</h3>
+            <h3 class="main-color address-title">Address</h3>
+            <p class="address">Vancouver, BC</p>
           </div>
           <div>
             <h3 class="section-title">contact</h3>
             <!-- item -->
-            <div style="display: flex">
+            <div class="contact-item">
               <span class="icon-wrapper">
                 <i class="fas fa-check-circle"></i>
               </span>
@@ -50,7 +52,7 @@
             </div>
 
             <!-- item -->
-            <div style="display: flex">
+            <div class="contact-item">
               <span class="icon-wrapper">
                 <i class="fas fa-check-circle"></i>
               </span>
@@ -65,6 +67,7 @@
             *ngFor="let experience of experiences"
             [experience]="experience"
           ></app-experience>
+          <h3 class="section-title">education</h3>
         </div>
       </div>
     </main>

@@ -2,6 +2,10 @@ body {
   font-family: "poppins";
   font-size: 0.8rem;
   padding: 0.5rem;
+
+  // to solve pdf background-color missing issue
+  // https://qiita.com/yuuuking/items/7c0f2d2b64cadf12b789
+  -webkit-print-color-adjust: exact;
 }
 
 .main-color {
@@ -28,7 +32,7 @@ body {
 }
 
 .icon-wrapper {
-  background-color: green;
+  background-color: rgb(185, 42, 120) !important;
   border-radius: 50%;
   width: 1.5rem;
   height: 1.5rem;

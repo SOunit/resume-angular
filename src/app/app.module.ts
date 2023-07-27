@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SkillIconComponent } from './skill-icon/skill-icon.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SkillIconComponent
+    SkillIconComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule

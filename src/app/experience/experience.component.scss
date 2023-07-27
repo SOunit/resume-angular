@@ -1,6 +1,19 @@
-.role {
+.experience {
+  border-left: 3px solid #c6c3c3;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.job-title {
+  margin-bottom: 0;
+}
+
+.time-company-name {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.company-name {
   text-transform: uppercase;
-  font-weight: 500;
-  margin-top: 0px;
-  margin-bottom: 10px;
 }

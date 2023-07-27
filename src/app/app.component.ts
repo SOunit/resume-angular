@@ -22,5 +22,16 @@ export class AppComponent {
       ],
       skills: ['Typescript', 'React Native'],
     },
+    {
+      jobTitle: 'React Full Stack Developer',
+      term: 'Oct 2021 - Feb 2022',
+      companyName: 'goopter E-commerce solution',
+      appeals: [
+        'create admin pages',
+        'follow well structured coding style, clean-architecture, domain-driven-development',
+        'experience in start up company',
+      ],
+      skills: ['Typescript', 'React'],
+    },
   ];
 }

@@ -2,21 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { SkillIconComponent } from './skill-icon/skill-icon.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { ContactItemComponent } from './contact-item/contact-item.component';
+import { SkillIconComponent } from './components/skill-icon/skill-icon.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ContactItemComponent } from './components/contact-item/contact-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SkillIconComponent,
     ExperienceComponent,
-    ContactItemComponent
+    ContactItemComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Experience } from '../shared/shared-types';
+import { Experience } from '../../shared/shared-types';
 
 @Component({
   selector: 'app-experience',

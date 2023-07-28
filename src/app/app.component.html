@@ -19,14 +19,14 @@
     />
   </head>
   <body>
-    <header style="border: 3px solid rebeccapurple">
+    <header>
       <h1 class="main-color name">Sho Okawa</h1>
       <h2 class="role">react full stack developer</h2>
     </header>
     <main>
       <div style="display: flex">
         <!-- side -->
-        <div style="border: 3px solid blue; width: 30%; padding-right: 1rem">
+        <div class="side-box">
           <div>
             <h3 class="section-title">profile</h3>
             <p>
@@ -53,7 +53,7 @@
           </div>
         </div>
         <!-- main -->
-        <div style="border: 3px solid blue; width: 70%">
+        <div class="main-box">
           <h3 class="section-title">work experience</h3>
           <app-experience
             *ngFor="let experience of experiences"

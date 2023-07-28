@@ -8,6 +8,17 @@ body {
   -webkit-print-color-adjust: exact;
 }
 
+.side-box {
+  // border: 3px solid blue;
+  width: 30%;
+  padding-right: 1rem;
+}
+
+.main-box {
+  // border: 3px solid blue;
+  width: 70%;
+}
+
 .name {
   font-size: 3rem;
   letter-spacing: 5px;

@@ -3,6 +3,7 @@
   padding-left: 1rem;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
+  position: relative;
 }
 
 .job-title {
@@ -26,4 +27,23 @@
 
 .appeal-item::marker {
   font-size: 0.5rem; /* Set the font size to adjust the marker size */
+}
+
+.design-dot-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #fff !important;
+  top: -4;
+  left: -13px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.design-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: rgb(185, 42, 120) !important;
+  border-radius: 50%;
 }

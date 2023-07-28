@@ -10,14 +10,24 @@ export class AppComponent {
   title = 'resume';
   contactItemList: ContactItem[] = [
     {
-      className: 'fas fa-check-circle',
-      linkTitle: 'google',
-      linkUrl: 'https://www.google.com/',
+      className: 'fas fa-envelope',
+      linkTitle: 'Email',
+      linkUrl: 'mailto:sho.okawa.dev@gmail.com',
     },
     {
-      className: 'fas fa-envelope',
-      linkTitle: 'sho.okawa.dev@gmail.com',
-      linkUrl: 'mailto:sho.okawa.dev@gmail.com',
+      className: 'fas fa-phone',
+      linkTitle: '(604) 365-5586',
+      linkUrl: '',
+    },
+    {
+      className: 'fab fa-linkedin',
+      linkTitle: 'LinkedIn',
+      linkUrl: 'https://www.linkedin.com/in/sho-okawa-1249a6222/',
+    },
+    {
+      className: 'fab fa-github',
+      linkTitle: 'Github',
+      linkUrl: 'https://github.com/SOunit',
     },
   ];
   experiences: Experience[] = [

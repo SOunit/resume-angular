@@ -2,5 +2,6 @@
   <span class="icon-wrapper">
     <i class="{{ className }}"></i>
   </span>
-  <a href="{{ linkUrl }}">{{ linkTitle }}</a>
+  <a *ngIf="linkUrl" href="{{ linkUrl }}">{{ linkTitle }}</a>
+  <p *ngIf="!linkUrl">{{ linkTitle }}</p>
 </div>

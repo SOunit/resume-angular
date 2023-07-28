@@ -60,6 +60,11 @@
             [experience]="experience"
           ></app-experience>
           <h3 class="section-title">education</h3>
+          <app-education
+            *ngFor="let education of educations"
+            [education]="education"
+          ></app-education>
+          <h3 class="section-title">skills</h3>
         </div>
       </div>
     </main>

@@ -1,27 +1,7 @@
-<div class="experience">
-  <div class="design-dot-wrapper">
-    <div class="design-dot"></div>
-  </div>
-  <h3 class="main-color job-title">
-    {{ experience.jobTitle }}
-  </h3>
-  <div
-    style="display: flex; justify-content: space-between; align-items: center"
-  >
-    <h4 class="time-company-name">
-      {{ experience.term }} |
-      <span class="company-name">{{ experience.companyName }}</span>
-    </h4>
-  </div>
-  <ul class="appeal-list">
-    <li class="appeal-item" *ngFor="let appeal of experience.appeals">
-      {{ appeal }}
-    </li>
-  </ul>
-  <div style="display: flex">
-    <app-skill-icon
-      *ngFor="let skill of experience.skills"
-      [title]="skill"
-    ></app-skill-icon>
-  </div>
-</div>
+<app-experience-card
+  [title]="experience.jobTitle"
+  [term]="experience.term"
+  [groupName]="experience.companyName"
+  [appeals]="experience.appeals"
+  [skills]="experience.skills"
+></app-experience-card>

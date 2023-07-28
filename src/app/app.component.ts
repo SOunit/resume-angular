@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Experience, ContactItem } from './shared/shared-types';
+import { Experience, ContactItem, Education } from './shared/shared-types';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,18 @@ import { Experience, ContactItem } from './shared/shared-types';
 })
 export class AppComponent {
   title = 'resume';
+  educations: Education[] = [
+    {
+      title: 'Web and Mobile App Development Co-op Diploma',
+      term: '2 Years | Sep 2021 - Sep 2023',
+      schoolName: 'cornerstone international community college of canada',
+    },
+    {
+      title: 'Bachelor of Literature',
+      term: '4 Years | Apr 2012 - Mar 2016',
+      schoolName: 'doshisha university',
+    },
+  ];
   contactItemList: ContactItem[] = [
     {
       className: 'fas fa-envelope',

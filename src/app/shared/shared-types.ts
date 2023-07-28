@@ -6,6 +6,12 @@ export interface Experience {
   skills: string[];
 }
 
+export interface Education {
+  title: string;
+  term: string;
+  schoolName: string;
+}
+
 export interface ContactItem {
   className: string;
   linkTitle: string;

@@ -1,0 +1,49 @@
+.experience {
+  border-left: 3px solid #c6c3c3;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.job-title {
+  margin-bottom: 0;
+}
+
+.time-company-name {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.company-name {
+  text-transform: uppercase;
+}
+
+.appeal-list {
+  padding-left: 1rem;
+  margin-top: 0;
+}
+
+.appeal-item::marker {
+  font-size: 0.5rem; /* Set the font size to adjust the marker size */
+}
+
+.design-dot-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #fff !important;
+  top: -4;
+  left: -13px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.design-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: rgb(185, 42, 120) !important;
+  border-radius: 50%;
+}

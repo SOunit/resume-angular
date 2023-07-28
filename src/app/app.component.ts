@@ -8,6 +8,26 @@ import { Experience, ContactItem, Education } from './shared/shared-types';
 })
 export class AppComponent {
   title = 'resume';
+  skills: string[] = [
+    'React',
+    'React Native',
+    'TypeScript',
+    'Node.js',
+    'Java',
+    'SQL',
+    'Sequelize',
+    'MongoDB',
+    'Mongoose',
+    'Docker',
+    'AWS',
+    'Linux',
+    'Firebase',
+    'NGINX',
+    'Git / Github',
+    'Github Actions',
+    'Travis CI',
+    'webpack',
+  ];
   educations: Education[] = [
     {
       title: 'Web and Mobile App Development Co-op Diploma',

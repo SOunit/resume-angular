@@ -27,7 +27,7 @@ export class AppComponent {
       term: '5 Months | Oct 2021 - Feb 2022',
       companyName: 'goopter E-commerce solution',
       appeals: [
-        'Add company blog page',
+        'Add company blog page fetching data from Wordpress backend',
         'Refactor to smaller and focused components',
         'Work with unfamiliar tech, Wordpress backend',
         'Solve issues by my own',

@@ -5,3 +5,9 @@ export interface Experience {
   appeals: string[];
   skills: string[];
 }
+
+export interface ContactItem {
+  className: string;
+  linkTitle: string;
+  linkUrl: string;
+}

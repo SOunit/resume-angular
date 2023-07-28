@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Experience } from './shared/shared-types';
+import { Experience, ContactItem } from './shared/shared-types';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +8,18 @@ import { Experience } from './shared/shared-types';
 })
 export class AppComponent {
   title = 'resume';
-  typescript = 'Typescript';
-  reactNative = 'React Native';
+  contactItemList: ContactItem[] = [
+    {
+      className: 'fas fa-check-circle',
+      linkTitle: 'google',
+      linkUrl: 'https://www.google.com/',
+    },
+    {
+      className: 'fas fa-envelope',
+      linkTitle: 'sho.okawa.dev@gmail.com',
+      linkUrl: 'mailto:sho.okawa.dev@gmail.com',
+    },
+  ];
   experiences: Experience[] = [
     {
       jobTitle: 'React Native Frontend Developer',

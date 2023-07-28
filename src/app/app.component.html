@@ -44,20 +44,12 @@
           <div>
             <h3 class="section-title">contact</h3>
             <!-- item -->
-            <div class="contact-item">
-              <span class="icon-wrapper">
-                <i class="fas fa-check-circle"></i>
-              </span>
-              <a href="https://www.google.com/">google</a>
-            </div>
-
-            <!-- item -->
-            <div class="contact-item">
-              <span class="icon-wrapper">
-                <i class="fas fa-check-circle"></i>
-              </span>
-              <a href="https://www.google.com/">google</a>
-            </div>
+            <app-contact-item
+              *ngFor="let contactItem of contactItemList"
+              [className]="contactItem.className"
+              [linkTitle]="contactItem.linkTitle"
+              [linkUrl]="contactItem.linkUrl"
+            ></app-contact-item>
           </div>
         </div>
         <!-- main -->
